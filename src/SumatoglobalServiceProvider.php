@@ -2,7 +2,6 @@
 
 namespace Sumatoglobal\InertiaTailwindPreset;
 
-use Sumatoglobal\Preset;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
 
