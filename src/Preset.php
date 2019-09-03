@@ -1,6 +1,6 @@
 <?php
 
-namespace Sumatoglobal\SumatoPreset;
+namespace Sumatoglobal\InertiaTailwindPreset;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;

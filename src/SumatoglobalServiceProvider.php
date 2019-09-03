@@ -1,6 +1,6 @@
 <?php
 
-namespace Sumatoglobal\SumatoPreset;
+namespace Sumatoglobal\InertiaTailwindPreset;
 
 use Sumatoglobal\Preset;
 use Illuminate\Support\ServiceProvider;
