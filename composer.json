@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sumatoglobal\\SumatoPreset\\" : "src/"
+            "Sumatoglobal\\InertiaTailwindPreset\\" : "src/"
         }
     },
     "extra" : {
         "laravel" : {
             "providers" : [
-                "Sumatoglobal\\SumatoPreset\\SumatoglobalServiceProvider"
+                "Sumatoglobal\\InertiaTailwindPreset\\SumatoglobalServiceProvider"
             ]
         }
     }
