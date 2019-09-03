@@ -1,0 +1,29 @@
+{
+    "name": "sumatoglobal/inertia-tailwind-preset",
+    "description": "Inertiajs with tailwindcss frontend preset",
+    "keywords": ["laravel", "sumatoglobal", "tailwindcss", "inertia preset"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "abhishek 007",
+            "email": "abhishek.sumatoglobal@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "laravel/framework": "^5.8",
+        "inertiajs/inertia-laravel": "^0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sumatoglobal\\SumatoPreset" : "src/"
+        }
+    },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "Sumatoglobal\\SumatoPreset\\SumatoglobalServiceProvider"
+            ]
+        }
+    }
+}
