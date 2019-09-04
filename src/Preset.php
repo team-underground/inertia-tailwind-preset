@@ -33,7 +33,8 @@ class Preset extends LaravelPreset
             '@inertiajs/inertia' => '^0.1.0',
             '@inertiajs/inertia-vue' => '^0.1.0',
             'vue-template-compiler' => '^2.6.10',
-            'tailwindcss' => '^1.1.2'
+            'tailwindcss' => '^1.1.2',
+            "vue" => "^2.6.10"
         ], Arr::except($packages, [
             'bootstrap',
             'popper.js',
