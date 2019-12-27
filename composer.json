@@ -1,29 +1,35 @@
 {
-    "name": "sumatoglobal/inertia-tailwind-preset",
-    "description": "Inertiajs with tailwindcss frontend preset",
-    "keywords": ["laravel", "sumatoglobal", "tailwindcss", "inertia preset"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "abhishek 007",
-            "email": "abhishek.sumatoglobal@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "laravel/framework": "^6.0",
-        "inertiajs/inertia-laravel": "^0.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Sumatoglobal\\InertiaTailwindPreset\\" : "src/"
-        }
-    },
-    "extra" : {
-        "laravel" : {
-            "providers" : [
-                "Sumatoglobal\\InertiaTailwindPreset\\SumatoglobalServiceProvider"
-            ]
-        }
+  "name": "sumatoglobal/inertia-tailwind-preset",
+  "version": "0.0.1",
+  "description": "Inertiajs with tailwindcss frontend preset",
+  "keywords": [
+    "laravel",
+    "sumatoglobal",
+    "tailwindcss",
+    "inertia preset"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "abhishek 007",
+      "email": "abhishek.sumatoglobal@gmail.com"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "laravel/framework": "^6.0",
+    "inertiajs/inertia-laravel": "^0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sumatoglobal\\InertiaTailwindPreset\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sumatoglobal\\InertiaTailwindPreset\\SumatoglobalServiceProvider"
+      ]
+    }
+  }
 }
