@@ -1,11 +1,11 @@
 <?php
 
-namespace Sumatoglobal\InertiaTailwindPreset;
+namespace TeamUnderground\InertiaTailwindPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
 
-class SumatoglobalServiceProvider extends ServiceProvider
+class InertiaTailwindServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap services.
@@ -14,9 +14,9 @@ class SumatoglobalServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        PresetCommand::macro('sumato', function ($command) {
+        PresetCommand::macro('inertia-tailwind', function ($command) {
             Preset::install();
-            $command->info('Sumato scaffolding installed successfully.');
+            $command->info('Inertia Tailwind scaffolding installed successfully.');
             $command->info('Please run "npm install && npx tailwind init && npm run watch" to compile your fresh scaffolding.');
         });
     }

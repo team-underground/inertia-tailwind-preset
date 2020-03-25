@@ -1,18 +1,18 @@
 {
-  "name": "sumatoglobal/inertia-tailwind-preset",
-  "version": "0.0.2",
+  "name": "team-underground/inertia-tailwind-preset",
+  "version": "0.0.1",
   "description": "Inertiajs with tailwindcss frontend preset",
   "keywords": [
     "laravel",
-    "sumatoglobal",
+    "team underground",
     "tailwindcss",
     "inertia preset"
   ],
   "license": "MIT",
   "authors": [
     {
-      "name": "abhishek 007",
-      "email": "abhishek.sumatoglobal@gmail.com"
+      "name": "abhishek sarmah",
+      "email": "abhisheksarmah660@gmail.com"
     }
   ],
   "minimum-stability": "stable",
@@ -22,13 +22,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Sumatoglobal\\InertiaTailwindPreset\\": "src/"
+      "TeamUnderground\\InertiaTailwindPreset\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Sumatoglobal\\InertiaTailwindPreset\\SumatoglobalServiceProvider"
+        "TeamUnderground\\InertiaTailwindPreset\\InertiaTailwindServiceProvider"
       ]
     }
   }
