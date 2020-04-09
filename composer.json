@@ -1,5 +1,6 @@
 {
   "name": "team-underground/inertia-tailwind-preset",
+  "version": "0.0.1",
   "description": "Inertiajs with tailwindcss frontend preset",
   "keywords": [
     "laravel",
